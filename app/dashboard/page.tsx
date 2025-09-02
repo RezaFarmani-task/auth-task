@@ -32,14 +32,12 @@ export default function DashboardPage() {
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg border border-gray-200 p-8 text-center">
         <div className="flex flex-col items-center">
           <div className="relative w-28 h-28 mb-4">
-            <Image
+            <img
               src={user.picture}
               alt={user.name}
-              fill
-              className="rounded-full object-cover shadow-md border-4 border-indigo-100"
-              sizes="112px"
-              priority
-              unoptimized
+              width={112}
+              height={112}
+              className="w-28 h-28 rounded-full shadow-md border-4 border-indigo-100 mb-4"
             />
           </div>
 

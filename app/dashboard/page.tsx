@@ -39,6 +39,7 @@ export default function DashboardPage() {
               className="rounded-full object-cover shadow-md border-4 border-indigo-100"
               sizes="112px"
               priority
+              unoptimized
             />
           </div>
 
